@@ -2323,6 +2323,11 @@ html {
     color: rgb(255 0 0 / var(--tw-text-opacity));
   }
 
+  .mobile\:text-white {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+  }
+
   .mobile\:hover\:text-white:hover {
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity));
