@@ -1427,10 +1427,6 @@ html {
   margin-top: 25px;
 }
 
-.ml-\[10px\] {
-  margin-left: 10px;
-}
-
 .flex {
   display: flex;
 }
@@ -1479,10 +1475,6 @@ html {
   height: auto;
 }
 
-.h-\[247px\] {
-  height: 247px;
-}
-
 .w-\[116px\] {
   width: 116px;
 }
@@ -1515,10 +1507,6 @@ html {
   width: 100%;
 }
 
-.w-\[500px\] {
-  width: 500px;
-}
-
 .max-w-\[700px\] {
   max-width: 700px;
 }
@@ -1529,6 +1517,10 @@ html {
 
 .cursor-pointer {
   cursor: pointer;
+}
+
+.flex-row-reverse {
+  flex-direction: row-reverse;
 }
 
 .flex-col {
@@ -1605,6 +1597,11 @@ html {
   background-color: rgb(205 228 176 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#DADADA\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(218 218 218 / var(--tw-bg-opacity));
+}
+
 .bg-\[\#DBDBDB\] {
   --tw-bg-opacity: 1;
   background-color: rgb(219 219 219 / var(--tw-bg-opacity));
@@ -1620,6 +1617,11 @@ html {
   background-color: rgb(237 28 36 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#FFFFFF\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
 .bg-base-content {
   --tw-bg-opacity: 1;
   background-color: var(--fallback-bc,oklch(var(--bc)/var(--tw-bg-opacity)));
@@ -1633,24 +1635,6 @@ html {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#\#DADADA\] {
-  background-color: ##DADADA;
-}
-
-.bg-\[\#DADADA\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(218 218 218 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#FFFFFF\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#\#CDE4B0\] {
-  background-color: ##CDE4B0;
 }
 
 .bg-opacity-80 {
@@ -1772,24 +1756,6 @@ html {
 }
 
 .text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-\[white\] {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-\[\#FFFFF\] {
-  color: #FFFFF;
-}
-
-.text-\[\#FFFFFZZZZ\] {
-  color: #FFFFFZZZZ;
-}
-
-.text-\[\#FFF\] {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
@@ -2036,20 +2002,12 @@ html {
     top: 0px;
   }
 
-  .mobile\:right-\[25px\] {
-    right: 25px;
-  }
-
-  .mobile\:right-0 {
-    right: 0px;
-  }
-
-  .mobile\:right-\[18px\] {
-    right: 18px;
-  }
-
   .mobile\:z-\[2\] {
     z-index: 2;
+  }
+
+  .mobile\:order-first {
+    order: -9999;
   }
 
   .mobile\:mx-auto {
@@ -2078,10 +2036,6 @@ html {
     margin-top: 30px;
   }
 
-  .mobile\:mb-\[20px\] {
-    margin-bottom: 20px;
-  }
-
   .mobile\:flex {
     display: flex;
   }
@@ -2108,6 +2062,10 @@ html {
 
   .mobile\:h-\[348px\] {
     height: 348px;
+  }
+
+  .mobile\:h-\[400px\] {
+    height: 400px;
   }
 
   .mobile\:h-\[44px\] {
@@ -2148,10 +2106,6 @@ html {
 
   .mobile\:h-full {
     height: 100%;
-  }
-
-  .mobile\:h-\[400px\] {
-    height: 400px;
   }
 
   .mobile\:min-h-\[44px\] {
@@ -2283,6 +2237,10 @@ html {
     text-align: justify;
   }
 
+  .mobile\:text-start {
+    text-align: start;
+  }
+
   .mobile\:text-\[18px\] {
     font-size: 18px;
   }
@@ -2412,10 +2370,6 @@ html {
     top: 425px;
   }
 
-  .desktop\:left-\[50\%\] {
-    left: 50%;
-  }
-
   .desktop\:z-\[2\] {
     z-index: 2;
   }
@@ -2453,14 +2407,6 @@ html {
 
   .desktop\:mr-0 {
     margin-right: 0px;
-  }
-
-  .desktop\:mr-auto {
-    margin-right: auto;
-  }
-
-  .desktop\:mb-0 {
-    margin-bottom: 0px;
   }
 
   .desktop\:flex {
@@ -2515,6 +2461,10 @@ html {
     height: 264px;
   }
 
+  .desktop\:h-\[274px\] {
+    height: 274px;
+  }
+
   .desktop\:h-\[300px\] {
     height: 300px;
   }
@@ -2563,14 +2513,6 @@ html {
     height: auto;
   }
 
-  .desktop\:h-\[320px\] {
-    height: 320px;
-  }
-
-  .desktop\:h-\[274px\] {
-    height: 274px;
-  }
-
   .desktop\:w-\[0\.8px\] {
     width: 0.8px;
   }
@@ -2589,6 +2531,10 @@ html {
 
   .desktop\:w-\[205px\] {
     width: 205px;
+  }
+
+  .desktop\:w-\[230px\] {
+    width: 230px;
   }
 
   .desktop\:w-\[25\%\] {
@@ -2643,18 +2589,6 @@ html {
     width: 100%;
   }
 
-  .desktop\:w-\[350px\] {
-    width: 350px;
-  }
-
-  .desktop\:w-\[230px\] {
-    width: 230px;
-  }
-
-  .desktop\:w-auto {
-    width: auto;
-  }
-
   .desktop\:min-w-\[190px\] {
     min-width: 190px;
   }
@@ -2681,10 +2615,6 @@ html {
 
   .desktop\:justify-center {
     justify-content: center;
-  }
-
-  .desktop\:justify-around {
-    justify-content: space-around;
   }
 
   .desktop\:gap-\[21px\] {
@@ -2768,11 +2698,6 @@ html {
 
   .desktop\:to-\[\#D3D3D3\] {
     --tw-gradient-to: #D3D3D3 var(--tw-gradient-to-position);
-  }
-
-  .desktop\:object-contain {
-    -o-object-fit: contain;
-       object-fit: contain;
   }
 
   .desktop\:object-cover {
