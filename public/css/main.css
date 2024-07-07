@@ -2010,6 +2010,10 @@ html {
     order: -9999;
   }
 
+  .mobile\:order-last {
+    order: 9999;
+  }
+
   .mobile\:mx-auto {
     margin-left: auto;
     margin-right: auto;
@@ -2130,6 +2134,10 @@ html {
 
   .mobile\:w-full {
     width: 100%;
+  }
+
+  .mobile\:flex-row-reverse {
+    flex-direction: row-reverse;
   }
 
   .mobile\:flex-wrap {
@@ -2591,6 +2599,10 @@ html {
 
   .desktop\:min-w-\[190px\] {
     min-width: 190px;
+  }
+
+  .desktop\:flex-row {
+    flex-direction: row;
   }
 
   .desktop\:flex-wrap {
