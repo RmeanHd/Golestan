@@ -1824,6 +1824,10 @@ html {
   background-image: url('/public/images/recipe-baner-1.png'),ur;
 }
 
+.bg-\[url\(\'https\:\/\/www\.golestan\.com\/wp-content\/uploads\/2023\/01\/recipe-baner-1\.png\'\)\] {
+  background-image: url('https://www.golestan.com/wp-content/uploads/2023/01/recipe-baner-1.png');
+}
+
 .bg-fixed {
   background-attachment: fixed;
 }
