@@ -1478,6 +1478,10 @@ html {
   margin-top: 40px;
 }
 
+.mb-\[50px\] {
+  margin-bottom: 50px;
+}
+
 .flex {
   display: flex;
 }
@@ -1844,6 +1848,10 @@ html {
 
 .p-\[22px\] {
   padding: 22px;
+}
+
+.pt-\[40px\] {
+  padding-top: 40px;
 }
 
 .text-center {
