@@ -1812,6 +1812,18 @@ html {
   background-image: url('/public/images/recipe-baner-1.png');
 }
 
+.bg-\[url\(\'\.\/public\/images\/recipe-baner-1\.png\'\)\] {
+  background-image: url('./public/images/recipe-baner-1.png');
+}
+
+.bg-\[url\(\'\/public\/images\/recipe-baner-1\.png\'\)\2c \] {
+  background-image: url('/public/images/recipe-baner-1.png'),;
+}
+
+.bg-\[url\(\'\/public\/images\/recipe-baner-1\.png\'\)\2c ur\] {
+  background-image: url('/public/images/recipe-baner-1.png'),ur;
+}
+
 .bg-fixed {
   background-attachment: fixed;
 }
