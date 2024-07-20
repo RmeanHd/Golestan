@@ -14,6 +14,8 @@ export default {
       backgroundImage: {
         header:
           "url('https://www.golestan.com/wp-content/uploads/2023/01/header-back-1.png')",
+          recipe:
+          "url('./public/images/recipe-baner-1.png')",
       },
     },
   },
